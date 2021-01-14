@@ -1,0 +1,15 @@
+{
+  "name": "statechart-jsx",
+  "version": "1.0.0",
+  "description": "Not tested. POC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bobcat-pixel",
+  "license": "ISC",
+  "dependencies": {
+    "@xstate/immer": "^0.1.0",
+    "xstate": "^4.15.4"
+  }
+}
