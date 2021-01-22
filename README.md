@@ -2,7 +2,7 @@
 
 This is is an *experimental* JSX pragma that allows one to use xstate while following SCXML idioms as closely as possible. 
 
-Xstate is quite an amazing library, but the syntax can be challenging as JavaScript's data structures aren't particularly amenable to expressing state machines. For those who find SCXML easier to grok, this should make development easier. Nesting state machines together is just like nesting React components.
+Xstate is quite an amazing library, but the syntax can be challenging as JavaScript's data structures aren't particularly amenable to expressing state machines. For those who find SCXML easier to grok, this should make development easier. Nesting state machines together is just like nesting React components, and one is free to use React component patterns like render props to extend functionality.
 
 PRs and feedback are welcome!
 
@@ -143,4 +143,5 @@ TODOS:
 - ESlint config
 - Mutations should support object syntax
 - Figure out what, if anything, can be done to leverage TSX
+- Integrate with lit-html for templating
 - Who knows, maybe even tests :-P
