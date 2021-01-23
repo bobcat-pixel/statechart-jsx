@@ -8,7 +8,7 @@ PRs and feedback are welcome!
 
 Obligatory traffic light example:
 
-```
+```js
 /** @jsx statechart */
 import statechart from "./index";
 
@@ -96,7 +96,7 @@ In some instances I've deferred to the xstate way of doing things
 - Tags like `<if>` are disregarded in favor of inline JS expressions
 - Tags like `<assign>` and `<data>` are disregarded in favor of xstate-style config objects passed as props to machine as `config`. Example:
 
-```
+```js
 const machineConfig = {
         context: {},
         mutations: {},
@@ -115,7 +115,7 @@ const TrafficLight = () => (
 ```
 or alternatively:
 
-```
+```js
 const TrafficLight = () => (
   <machine initial="green">
     {{
